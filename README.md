@@ -91,12 +91,6 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
----
-
 ## Contact
 
 For any questions or feedback, feel free to reach out:
