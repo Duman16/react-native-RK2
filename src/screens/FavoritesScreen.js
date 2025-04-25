@@ -5,8 +5,8 @@ import { FavoritesContext } from '../context/FavoritesContext';
 
 const FavoritesScreen =({navigation}) => {
     const{ favorites } = useContext(FavoritesContext);
-    const handlePress =(item) => {
-        navigation.navigate('NewsDetail', {newsItem: item});
+    const handlePress = (item) => {
+        navigation.navigate("Detail", { newsItem: item });
     };
     if ( favorites.length === 0) {
         return(

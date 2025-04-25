@@ -40,7 +40,7 @@ const HomeScreen = ({ navigation }) => {
     };
 
     const handlePress = (item) => {
-        navigation.navigate('NewsDetails', { newsItem: item});
+        navigation.navigate("Detail", { newsItem: item });
     };
 
     if (loading && !refreshing){
